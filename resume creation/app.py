@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyAEnmnWP_vN5H3DOtQMnryvyzpn5x6rinQ")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def generate_resume_content(name, email, phone, skills, experience,address,education):
